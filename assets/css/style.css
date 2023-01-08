@@ -77,6 +77,12 @@
   ul {
       margin-bottom: 0;
   }
+  .font-800{
+      font-weight: 800;
+  }
+  .content.content-3 span.theme-color{
+    color: #92a5de;
+  }
   .d-none{
       display: none;
   }
@@ -1643,8 +1649,8 @@ img.vector-png{
 }
 .carousel-indicators [data-bs-target]{
     width: 3vw !important;
-    height: 2vh !important;
-    border-radius: 150px !important;
+    height: 1vh !important;
+    border-radius: 10px !important;
 }
 .carousel-indicators .active{
     width: 5vw !important;
@@ -1660,7 +1666,7 @@ img.vector-png{
 }
 .carousel-item .row h2{
     margin-bottom: 0;
-    color: white;
+    color: #92a5de;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 20px rgb(0 0 0 / 15%);
     font-size: 3vw;
     text-align: center;
@@ -1965,6 +1971,16 @@ img.vector-png{
    }
    .bar1, .bar2, .bar3 {
     background: var(--blue-dark);
+   }
+   .carousel-item .row h2,.second-heading{
+    text-shadow: none;
+   }
+   .carousel-indicators [data-bs-target]{
+    width: 8px !important;
+    height: 5px !important;
+   }
+   .carousel-indicators .active{
+    width: 16px !important;
    }
 
 .nav-link.active, .nav-link:hover {
